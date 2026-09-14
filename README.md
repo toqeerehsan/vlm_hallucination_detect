@@ -19,7 +19,7 @@ Challenge set, committee with votes ≥ 2:
 | Cor | 0.5334 | 0.5873 | 0.5628 | 0.6083 | 0.5730 |
 | IoU | 0.4486 | 0.5150 | 0.4793 | 0.5344 | 0.4943 |
 
-Official rankings: https://shroom.pythonanywhere.com/submission/
+Official rankings: https://helsinki-nlp.github.io/shroom/2026
 
 ## Approach
 
@@ -92,6 +92,10 @@ Set `LABELED_SET=1` in `run_committee.sh` for the labeled split (with scoring) o
 The SHEEP dataset is released by the task organizers under CC-BY-NC and is available
 from the [task page](https://helsinki-nlp.github.io/shroom/2026). It is not
 redistributed here.
+
+## Fine-tuned Model Checkpoints
+
+The fine-tuned checkpoints (V3) are available here: https://huggingface.co/QSTS-VTT/models
 
 ## Citation
 
