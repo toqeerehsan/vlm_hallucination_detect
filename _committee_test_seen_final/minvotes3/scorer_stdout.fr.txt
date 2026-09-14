@@ -1,0 +1,12 @@
+2281 533 False
+updated lists: 533 533
+distribs:
+- pred Counter({False: 276, True: 257}) 
+- ref  Counter({True: 397, False: 136})
+Cor    : 0.47763707
+IoU    : 0.41454618
+Cor lbl: 0.37528894
+acc    : 0.67354597
+f1     : 0.73394495
+prec   : 0.93385214
+rec    : 0.60453401

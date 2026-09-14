@@ -1,0 +1,163 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS and Windows
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Local datasets and images
+data/*
+!data/.gitkeep
+!data/examples/
+!data/examples/.gitkeep
+!data/targets/
+!data/targets/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Model files and checkpoints
+checkpoints/
+models/
+wandb/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Local configuration files
+config/*.local.json
+config/*.local.yaml
+config/*.local.yml
+
+# Copilot local state
+.copilot/
+
+shroom_data/all-images/shroom-vis-images/
+shroom_data/
+data_splits/
+outputs*/
+# Large datasets
+ckpts/
+shroom_data/
+
+
+# Outputs
+outputs/
+outputs-*/
+logs/
+
+methodology/
+hf_cache/
+
+participant_kit/
+- shroom_results.xlsx
+*.pdf
+analysis_report.txt
+analyze_seen_unseen.py
+calibration_en.json
+calibration_fr.json
+calibration_it.json
+calibration_zh.json
+client_original.py
+combine_offsets.py
+convert_ref4scorer.py
+errors-A.json
+filter_spans_from_raw.py
+finetune_vlm_old.py
+fit_calibration.py
+fit_weights.py
+github_models_catalog.json
+models.json
+old_run_pipeline_slurm.sh
+probe_eval_nan.py
+prompt_builder_old.py
+prompt_builder_old1.py
+prompt_builder_old3.py
+repair_jsonl.py
+run_analysis.sh
+run_batch_azure_slurm.sh
+run_batch_azure.py
+run_committee_langCal.sh
+run_committee_old.sh
+run_filter_raw.sh
+run_finetune_slurm_old.sh
+run_fit_weights.sh
+run_inference_old.py
+run_inference_old1.py
+run_inference_old2.py
+run_inference_oldworking.py
+run_pipeline_slurm_azure.sh
+run_weighted_committee.sh
+slurm-1423782.out
+slurm-1432307.out
+stacker.pkl
+test_scores.txt
+train_stacker.py
+verify_repair.py
+weighted_aggregate.py
+z_error_table.py
+z_misc copy 2.py
+z_misc copy.py
+z_misc.py
+evaluation/
+from_nico/
+_committee_test_seen_final_X/
+_committee_test_unseen_final_X/
+_error_analysis/
+_preds_test_seen_final/
+_preds_test_unseen_final/
+_weights_learned_Cor/
+_weights_learned_Cor-lbl/
+_weights_learned_IoU
+converted/
+data_splits/
+fine-tuning/
+requests.jsonl

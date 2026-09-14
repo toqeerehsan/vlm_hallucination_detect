@@ -1,0 +1,12 @@
+2281 2281 True
+updated lists: 2281 2281
+distribs:
+- pred Counter({True: 1821, False: 460}) 
+- ref  Counter({True: 1642, False: 639})
+Cor    : 0.46785556
+IoU    : 0.41160460
+Cor lbl: 0.33724298
+acc    : 0.78649715
+f1     : 0.85937049
+prec   : 0.81713344
+rec    : 0.90621194

@@ -1,0 +1,32 @@
+{
+  "models": [
+    "gemma-4-31b-ft",
+    "gemma-4-31b",
+    "mistral-small-3.1-24b-ft",
+    "qwen3.6-27b-ft",
+    "qwen3-vl-30b-a3b-ft"
+  ],
+  "min_votes": 4,
+  "inputs": {
+    "test.en.labeled": {
+      "samples": 573,
+      "spans": 447,
+      "chars_flagged": 3468
+    },
+    "test.fr.labeled": {
+      "samples": 533,
+      "spans": 440,
+      "chars_flagged": 3284
+    },
+    "test.it.labeled": {
+      "samples": 556,
+      "spans": 418,
+      "chars_flagged": 3421
+    },
+    "test.zh.labeled": {
+      "samples": 619,
+      "spans": 373,
+      "chars_flagged": 1055
+    }
+  }
+}

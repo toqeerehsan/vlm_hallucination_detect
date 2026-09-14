@@ -1,0 +1,32 @@
+{
+  "models": [
+    "gemma-4-31b-ft",
+    "gemma-4-31b",
+    "mistral-small-3.1-24b-ft",
+    "qwen3.6-27b-ft",
+    "qwen3-vl-30b-a3b-ft"
+  ],
+  "min_votes": 3,
+  "inputs": {
+    "shroom-vision.test.en.unlabeled": {
+      "samples": 1201,
+      "spans": 1659,
+      "chars_flagged": 13492
+    },
+    "shroom-vision.test.fr.unlabeled": {
+      "samples": 1233,
+      "spans": 2110,
+      "chars_flagged": 17453
+    },
+    "shroom-vision.test.it.unlabeled": {
+      "samples": 1254,
+      "spans": 1800,
+      "chars_flagged": 14131
+    },
+    "shroom-vision.test.zh.unlabeled": {
+      "samples": 1210,
+      "spans": 1433,
+      "chars_flagged": 5816
+    }
+  }
+}
