@@ -46,8 +46,8 @@ to decorrelate their errors:
 
 | Judge | Backbone | Setting |
 |---|---|---|
-| Gemma-4-ft | Gemma-4 | fine-tuned, 0-shot |
-| Gemma-4-6shot | Gemma-4 | few-shot (6 demonstrations) |
+| Gemma-4-ft | gemma-4-31B-it | fine-tuned, 0-shot |
+| Gemma-4-6shot | gemma-4-31B-it | few-shot (6 demonstrations) |
 | Mistral-small-ft | Mistral-Small-3.1-24B | fine-tuned, 0-shot |
 | Qwen3.6-ft | Qwen3.6-27B | fine-tuned, 0-shot |
 | Qwen3-vl-ft | Qwen3-VL-30B-A3B | fine-tuned, 3-shot |
@@ -71,6 +71,7 @@ pip install -r requirements.txt
 
 Python 3.10+. Running the judges needs a GPU; aggregation and scoring run on CPU.
 
+<!--
 ## Usage
 
 ```bash
@@ -84,6 +85,7 @@ python scorer.py gold.jsonl predictions.jsonl scores.txt
 Set `LABELED_SET=1` in `run_committee.sh` for the labeled split (with scoring) or
 `LABELED_SET=0` for the unlabeled challenge set. The vote threshold is set with
 `MIN_VOTES`.
+-->
 
 ## Data
 
